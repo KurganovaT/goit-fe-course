@@ -25,7 +25,7 @@ ul {
 }
 
 .musthead_wrapper {
-  padding-bottom: 105px;
+  margin-bottom: 105px;
 }
 
 .logo {
@@ -179,11 +179,11 @@ ul {
 }
 
 .news-card__button {
+  display: inline-block;
+  text-decoration: none;
   color: #ffffff;
   background-color: #4ec6ab;
   padding: 20px 40px;
   font-size: 16px;
-  outline: none;
-  border: none;
   border-radius: 3px;
 }
