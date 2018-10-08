@@ -34,13 +34,14 @@ ul {
 
 .logo:first-letter {
   color: #1abc9c;
+  font-weight: 900;
 }
 
 .logo_link {
   text-decoration: none;
   color: #555252;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -63,7 +64,7 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   color: #323232;
-  font-weight: bolder;
+  font-weight: 700;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -83,7 +84,7 @@ ul {
 .title {
   text-transform: uppercase;
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 900;
   margin-bottom: 130px;
 }
 
@@ -121,18 +122,18 @@ ul {
 }
 
 .products-item_img {
-  width: 255px;
+  width: 100%;
   height: 282px;
   margin: auto;
 }
 
 .item_description {
-  margin: -4px 0 0 0;
   background-color: #323232;
+  margin: -4px 0 0 0;
   float: left;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 900;
   text-transform: uppercase;
   line-height: 40px;
 }
@@ -144,9 +145,9 @@ ul {
 }  
 
 .products-item_price {
-  opacity: 0.44;
   width: 25%;
   text-align: center;
+  opacity: 0.44;
 }
 
 .news-list__news-item {
@@ -166,6 +167,7 @@ ul {
   line-height: 1.6;
   margin-bottom: 35px; 
   font-size: 18px;
+  font-weight: 600;
 }
 
 .new-card__title::after {
@@ -180,6 +182,12 @@ ul {
   line-height: 1.8;
   text-align: justify;
   margin-top: 0;
+  font-weight: 400;
+}
+
+.news-card__img {
+  width: 100%;
+  height: 269px;
 }
 
 .news-card__button {
