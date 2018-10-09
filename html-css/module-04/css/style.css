@@ -102,6 +102,10 @@ ul {
   margin-right: calc(80px/3);
 }
 
+.products-item_link {
+  text-decoration: none;
+}
+
 .products-list_products-card {
   margin: 0;
   width: 255px;
@@ -123,32 +127,36 @@ ul {
 
 .products-item_img {
   width: 100%;
-  height: 282px;
+  height: 280px;
   margin: auto;
 }
 
 .item_description {
-  margin: -4px 0 0 0;
-  float: left;
   color: #ffffff;
   font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 40px;
-  
+  background-color: #323232;
+  margin-top: -4px;
 }
 
 .products-item_name {
-  width: 75%;
+  display: inline-block;
+  float: left;
+  width: 200px;
   text-align: left;
-  padding-left: 15px;
-  background: #323232;
+  margin: 0;
+  padding: 8px 0 8px 13px; 
 }  
 
 .products-item_price {
-  width: 25%;
-  text-align: center;
+  width: 55px;
+  float: right;
+  display: inline-block;
   background: rgba(255, 255, 255, 0.44);
+  width: 55px;
+  text-align: center;
+  padding: 10px;
 }
 
 .news-list__news-item {
