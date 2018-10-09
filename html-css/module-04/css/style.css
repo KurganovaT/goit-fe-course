@@ -128,7 +128,6 @@ ul {
 }
 
 .item_description {
-  background-color: #323232;
   margin: -4px 0 0 0;
   float: left;
   color: #ffffff;
@@ -136,18 +135,20 @@ ul {
   font-weight: 900;
   text-transform: uppercase;
   line-height: 40px;
+  
 }
 
 .products-item_name {
   width: 75%;
   text-align: left;
   padding-left: 15px;
+  background: #323232;
 }  
 
 .products-item_price {
   width: 25%;
   text-align: center;
-  opacity: 0.44;
+  background: rgba(255, 255, 255, 0.44);
 }
 
 .news-list__news-item {
