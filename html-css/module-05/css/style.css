@@ -237,7 +237,7 @@ ul {
 /*--------------------HIDEN PRODUCTS BUTTONS------------------*/
 
 .products-list_product-features {
-  display: none;
+  display: block;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -248,10 +248,7 @@ ul {
 }
 
 .product-features_features_button {
-  position: absolute;
-  z-index: 3;
-  top: 80px;
-  left: 35px;
+  position: relative;
   text-align: left;
   width: 164px;
 }
@@ -278,6 +275,27 @@ ul {
   background-color: inherit;
   color: #ffffff;
   outline: none;
+  position: absolute;
+  top: 80px;
+  left: 35px;
+}
+
+.features_button_like {
+	position: absolute;
+	top: 80px;
+	left: 35px;
+}
+
+.features_button_compare {
+	position: absolute;
+	top: 80px;
+	left: 95px;
+}
+
+.features_button_waitlist {
+	position: absolute;
+	top: 80px;
+	left: 150px;
 }
 
 .features_button:hover {
@@ -295,6 +313,9 @@ ul {
   text-transform: uppercase;
   vertical-align: middle;
   font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top: 135px;
+  left: 35px;
 }
 
 .features_button_buy:hover {
