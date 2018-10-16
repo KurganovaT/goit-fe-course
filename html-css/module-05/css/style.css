@@ -310,6 +310,11 @@ ul {
   background-color: #1abc9c;
 }
 
+.features_button-text {
+  display: block;
+  padding-top: 15px;
+}
+
 .pe-7s-cart {
   float: left;
   padding: 10px;
