@@ -66,6 +66,7 @@ ul {
 .nav-list_item {
   list-style: none;
   padding-bottom: 12px;
+  border-bottom: 2px solid #ffffff;
 }
 
 .nav-list_item:hover {
@@ -166,6 +167,8 @@ ul {
 .team_section-subtitle {
   font-family: var(--ScriptFontFamily);
   font-size: 24px;
+  display: block;
+  margin-bottom: 24px;
 }
 
 .team_section-title {
@@ -186,6 +189,7 @@ ul {
 }
 
 .team_section-text {
+  width: 940px;
   color: #999999;
   line-height: 24px;
   margin: 0 auto;
