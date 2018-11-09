@@ -89,13 +89,12 @@ ul {
 .header_nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .nav-list_item {
   list-style: none;
-  padding-bottom: 12px;
   margin-right: 40px;
 }
 
