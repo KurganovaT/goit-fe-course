@@ -1,26 +1,26 @@
 @media (min-width: 1440px) {
-  .wrapper {
-    width: 1440px;
-    /* margin: 0 auto; */
-  }
-
   .container {
-    width: 65.3%;
+    width: 942px;
   }
 
-  .promo_section {
+  .promo_block {
     background: url("../img/banner_desktop.png") center no-repeat, rgba(26, 25, 21, 1);
     color: #ffffff;
     text-align: center;
   }
 
-  .promo_section-header {
+  .promo_block-header {
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
+    width: 942px; 
   }
 
-  .promo_section-body {
-    width: 53%;
+  .promo_section-promo_title {
+    width: 54%;
+  }
+
+  .button {
+    width: 227px;
   }
 
   /*--------------------PARTNER SECTION---------------*/

@@ -1,45 +1,46 @@
 @media (min-width: 768px) {
-  .wrapper {
-    width: 768px;
-  }
 
   .container {
-    width: 87.5%;
+    width: 660px;
   }
 
-  .promo_section {
+  .promo_block {
     background: url("../img/banner_tab.png") center no-repeat, rgba(26, 25, 21, 1);
   }
 
-  .promo_section-header {
+  .promo_block-header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-top: 38px;
-    margin-bottom: 150px;
+    margin: 0 auto 142px auto;
   }
 
   .header_nav {
     margin: 0;
   }
 
-  .promo_section-body {
-    padding-bottom: 225px;
+  .promo_block-body {
+    padding-bottom: 236px;
   }
 
   .promo_section-promo_title {
-    margin: 0 auto 25px auto;
     font-size: 3.25rem;
-    width: 75%;
+    margin-bottom: 40px;
+    width: 77%;
   }
 
   .promo_section-promo_text {
+    width: 100%;
     font-size: 1.5rem;
-    margin: 0 auto 33px auto;
   }
 
   .promo_section-submit_button {
-    padding: 12px 20px;
+    padding: 12px 18px;
+  }
+
+  .button {
+    width: 227px;
   }
 
 /*--------------------PARTNER SECTION---------------*/
@@ -49,16 +50,16 @@
   }
 
   .partner_section-header {
-    margin: 0 auto 30px auto;
-    font-size: 1.375rem;
+  margin: 0 auto 30px auto;
+  font-size: 1.375rem;
   }
   .partner_section-partner_list {
     flex-direction: row;
+    width: 74.54%;
   }
 
   .partner_list-partner_item {
     width: 43%;
-    height: 50%;
   }
 
   .partner_list-partner_item:nth-child(2) {
