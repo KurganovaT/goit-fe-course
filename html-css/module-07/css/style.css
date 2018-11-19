@@ -165,6 +165,11 @@ ul {
   margin-bottom: 25px;
 }
 
+.services_img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .services_link-services_descr {
   text-align: center;
 }
@@ -186,10 +191,11 @@ ul {
 }
 
 /*-------------------CONTACT SECTION---------------------*/
-.contact_section {
+.contact_section-wrapper {
   padding-top: 110px;
   padding-bottom: 115px;
   background: url('../img/Map_Image.png') right no-repeat;
+  /* background-size: 100%; */
   background-color: #222222;
   background-position: 100% 80%;
 }
@@ -197,6 +203,16 @@ ul {
 .contact_section-title {
   color: #ffffff;
   padding-top: 0;
+}
+
+.contact_section-contact_form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 210px;
+  width: 940px;
+  margin-bottom: 30px;
 }
 
 .contact_section-contact_form input, textarea {
@@ -212,20 +228,11 @@ input::placeholder, textarea::placeholder {
   color: #bbbbbb;
 }
 
-.contact_form-form_block {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 210px;
-  width: 940px;
-  margin-bottom: 30px;
-}
-
-.contact_form-form_block div {
+.contact_form-info_block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 48%;
+  width: 455px;
 }
 
 .contact_form-info_block input {
@@ -233,6 +240,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .msg_block-message {
+  width: 455px;
   height: 100%;
   padding: 20px;
   resize: none;
@@ -243,6 +251,11 @@ input::placeholder, textarea::placeholder {
   width: 240px;
   background: #fed136;
   cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 input[value] {
