@@ -1,48 +1,23 @@
-@media (min-width: 1440px) {
+@media (min-width: 982px) {
   .container {
     width: 942px;
   }
 
-  .promo_block {
-    background: url("../img/banner_desktop.png") center no-repeat, rgba(26, 25, 21, 1);
-    color: #ffffff;
-    text-align: center;
+  .promo_block-body {
+    background: url("../img/banner_desktop.png") center/cover no-repeat, rgba(26, 25, 21, 1);
   }
 
   .promo_block-header {
-    flex-direction: row;
-    justify-content: space-between;
     width: 942px; 
   }
 
   .promo_section-promo_title {
     width: 54%;
   }
-
-  .button {
-    width: 227px;
-  }
-
   /*--------------------PARTNER SECTION---------------*/
 
-  .partner_section {
-    padding-bottom: 40px;
-  }
-  
-  .partner_section-header {
-    margin-bottom: 32px;   
-  }
-
-  .partner_section-partner_list {
+    .partner_section-partner_list {
     flex-direction: row;
     flex-wrap: nowrap;
-  }
-
-  .partner_list-partner_item:nth-child(2) {
-    order: 3;
-  }
-
-  .partner_list-partner_item:nth-child(4) {
-    order: 4;
   }
 }  

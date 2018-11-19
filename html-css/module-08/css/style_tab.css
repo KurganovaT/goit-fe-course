@@ -1,11 +1,16 @@
-@media (min-width: 768px) {
+@media (min-width: 700px) {
 
   .container {
-    width: 660px;
+    width: 532px;
   }
 
-  .promo_block {
-    background: url("../img/banner_tab.png") center no-repeat, rgba(26, 25, 21, 1);
+  .promo_block-body {
+    background: url("../img/banner_tab.png") center/cover no-repeat, rgba(26, 25, 21, 1);
+  }
+
+  .promo_block-container {
+    padding-top: 227px;
+    padding-bottom: 234px;
   }
 
   .promo_block-header {
@@ -13,21 +18,16 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 38px;
-    margin: 0 auto 142px auto;
+    width: 660px;
   }
 
   .header_nav {
     margin: 0;
   }
 
-  .promo_block-body {
-    padding-bottom: 236px;
-  }
-
   .promo_section-promo_title {
     font-size: 3.25rem;
-    margin-bottom: 40px;
-    width: 77%;
+    margin-bottom: 31px;
   }
 
   .promo_section-promo_text {
@@ -55,6 +55,7 @@
   }
   .partner_section-partner_list {
     flex-direction: row;
+    align-items: flex-start;
     width: 74.54%;
   }
 
