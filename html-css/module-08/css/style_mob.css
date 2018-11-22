@@ -16,6 +16,8 @@ ul {
 .container {
   width: 292px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .promo_block-body {
@@ -130,16 +132,12 @@ ul {
 }
 
 .partner_section-partner_list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 215px;
 }
 
 .partner_list-partner_item {
-  width: 63%;
   list-style: none;
   margin-bottom: 27px;
 } 

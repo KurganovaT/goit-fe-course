@@ -7,17 +7,41 @@
     background: url("../img/banner_desktop.png") center/cover no-repeat, rgba(26, 25, 21, 1);
   }
 
-  .promo_block-header {
-    width: 942px; 
+  .logo {
+    grid-column: 1/4;
+  }
+
+  .header_nav {
+    grid-column: 10/13;
   }
 
   .promo_section-promo_title {
-    width: 54%;
+    grid-column: 3/11;
+  }
+
+  .promo_section-submit_button {
+    width: 225px;
+    justify-self: center;
   }
   /*--------------------PARTNER SECTION---------------*/
 
-    .partner_section-partner_list {
-    flex-direction: row;
-    flex-wrap: nowrap;
+  .partner_section-partner_list {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+    grid-column: 1/13;
+  }
+
+  .partner_list-partner_item:nth-child(n) {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+
+  .partner_list-partner_item:nth-child(2) {
+    order: 3;
+  }
+
+  .partner_list-partner_item:nth-child(4) {
+    order: 3;
   }
 }  
