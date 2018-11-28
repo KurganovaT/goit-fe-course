@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+   margin-left: -10px;
+   margin-right: -10px;
+}
+
+.row > [class^="col-"], .row > [class*=" col-"] {
+   padding-left: 10px !important;
+   padding-right: 10px !important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #515151;
+  font-size: 16px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.promo_block-body {
+  background: url("../img/banner_mob.png") center/cover no-repeat, rgba(26, 25, 21, 1);
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+.promo_block-container {
+  padding-top: 230px;
+  padding-bottom: 124px;
+}
+
+.promo_block-header {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 19px;
+}
+
+.header_nav {
+  margin: 0 auto 95px auto;
+}
+
+.header_nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-list_item {
+  list-style: none;
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding: 7px 14px;
+}
+
+.nav-list_item:hover {
+  border: 2px solid var(--fontPromoColor);
+  border-radius: 45px;
+  padding: 7px 14px;
+}
+
+.list_item-link {
+  text-decoration: none;
+  color: var(--fontPromoColor);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo_link {
+  text-decoration: none;
+  color: var(--fontPromoColor);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+ 
+.promo_section-promo_title {
+  margin: 0 auto 15px auto;
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.promo_section-promo_text {
+  font-family: 'Roboto', sens-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  margin: 0 auto 19px auto;
+}
+
+.promo_section-submit_button {
+  background-color: #ff4e50;
+  border: 2px solid #ff4e50;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--fontPromoColor);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 45px;
+}
+
+.button {
+}
+
+/*---------------PARTNER SECTION-------------------------*/
+
+.partner_section {
+  padding-bottom: 56px;
+  text-align: center;
+}
+
+.partner_section-header {
+  margin: 0 auto 18px auto;
+  color: #333333;
+  font-size: 1.375rem;
+  font-weight: 700;
+  padding-top: 70px;
+}
+
+.partner_list-partner_item {
+  margin-bottom: 27px;
+} 
+
+.partner_item-partner_photo {
+  width: 123px;
+  height: 123px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0 auto 20px auto;
+  position: relative;
+}
+
+.partner_photo-img {
+  border-radius: 90px;
+}
+
+.partner_item-partner_photo::after {
+  position: absolute;
+  content: url('../img/partner1_shape.png');
+  background-color: #ff4e50;
+  width: 37px;
+  height: 37px;
+  border: 3px solid #ffffff;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_partner::after {
+  content: url('../img/partner2_shape.png');
+  background-color: #ffa507;
+}
+
+.third_partner::after {
+  content: url('../img/partner3_shape.png');
+  background-color: #1cd7ad;
+}
+
+.fourth_partner::after {
+  content: url('../img/partner4_shape.png');
+  background-color: #4e73db;
+}
+
+.partner_item-partner_name {
+  margin: 0 auto 15px auto;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #333333;
+}
+
+.partner_item-partner_descr {
+  margin: 0;
+  font-family: 'Roboto', sens-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #666666;
+}
+
+.partner_section-submit_button {
+  background-color: #ffffff;
+  border: 2px solid #ff4e50;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #ff4e50;
+  padding: 12px 0;
+  border-radius: 45px;
+}

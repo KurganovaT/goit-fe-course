@@ -1,0 +1,5 @@
+@media (min-width: 982px) {
+  .promo_block-body {
+    background: url("../img/banner_desktop.png") center/cover no-repeat, rgba(26, 25, 21, 1);
+  }
+}  

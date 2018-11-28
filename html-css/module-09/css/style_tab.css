@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+
+    .promo_block-body {
+    background: url("../img/banner_tab.png") center/cover no-repeat, rgba(26, 25, 21, 1);
+  }
+
+  .promo_block-container {
+    padding-top: 227px;
+    padding-bottom: 234px;
+  }
+
+  .promo_block-header {
+    padding-top: 38px;
+  }
+
+  .promo_section-promo_title {
+    font-size: 3.25rem;
+    margin-bottom: 31px;
+  }
+
+  .promo_section-promo_text {
+    font-size: 1.5rem;
+  }
+
+  .promo_section-submit_button {
+    padding: 12px;
+  }
+/*--------------------PARTNER SECTION---------------*/
+
+  .partner_section {
+    padding-bottom: 40px;
+  }
+
+  .partner_section-header {
+  margin: 0 auto 30px auto;
+  font-size: 1.375rem;
+  }
+}
